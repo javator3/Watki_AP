@@ -2,6 +2,8 @@ package pl.sda.watki;
 
 public class RunnerExample extends Thread {
 
+    public int value;
+
     @Override
     public void run(){
         for (int i = 0; i < 100; i++) {

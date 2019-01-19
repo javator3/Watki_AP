@@ -59,7 +59,7 @@ public class Main {
 //        });
 //
 //        thread.start();
-
+        int[] array = new int[10];
         Thread twoTread = new Thread(new TwoThread());
         twoTread.start();
 
